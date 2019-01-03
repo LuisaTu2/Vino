@@ -1,24 +1,29 @@
 .NavigationElement {
-
     display: flex;
     align-items: center;
     align-content: center;
     padding: 0% 0% 0% 7%; 
+    /* margin: 10%; */
     height: 100%;
     width: 100%;
-    
+    font-family: 'Quicksand', sans-serif;
 }
 
 .NavigationElement a{
     text-decoration: none; 
-    color: rgb(231, 227, 185);
+    /* color: rgb(54, 48, 131); */
 }
 
 .NavigationElement:hover{
-    background-color: rgb(169, 162, 175);
-    color: rgb(82, 21, 117);
+    /* background-color: rgb(169, 162, 175); */
+    /* color: rgb(57, 15, 82); */
+    font-weight:  bold;
 }
 
+.NavigationElement .clickedNavigationElement{
+    /* color: rgb(247, 0, 255); */
+    font-weight: bold;
+}
 
 
 @media (max-width: 500px) {
@@ -29,7 +34,7 @@
         /* height: 100%;
         width: auto; */
         /* align-items: center; */
-        
-        background-color: rgb(149, 31, 160);
+        /* color: rgb(187, 33, 136); */
+        background-color: rgb(154, 104, 158);
     }
 }

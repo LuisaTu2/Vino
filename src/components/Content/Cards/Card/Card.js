@@ -1,31 +1,42 @@
 import React, {Component} from "react"
 import "./Card.css"
+import noIMG from "../../../../assets/noImage.png"
 
+class Card extends Component {
 
-class cards extends Component {
+    
     render(){
-        let img = this.props.img;
-        const divStyle = {
-            color: 'blue',
-            backgroundImage: 'url(' + this.props.img + ')',
-            backgroundRepeat: 'noRepeat'
-          };
+        let img = "";
+        if(this.props.img){
+            img = this.props.img;
+        } 
+        else {
+            img = noIMG;
+        }
+
 
         return(
-            <a className="textOverImage" style={divStyle} data-title={this.props.name} data-text={this.props.tastingNote} >
-                {/* <img src={this.props.img}  className="ProductImg" />
-                
+          
+            <li className="Product" onClick={this.showSpecsHandler}>
+                    <img src={img}  className="ProductImg" />
+                   
                     <p className="ProductName"> 
                       {this.props.name}
                     </p>
-                    <p className="ProductTastingNote"> 
-                        {this.props.tastingNote}
-                    </p>  */}
-                
-            </a>
+                    <span
+                        className={"popuptext "} 
+                        id="popuText"
+                        > 
+                        <p className="nameTitle"> <strong> {this.props.name} </strong> </p> 
+                        <p> <strong> Alcohol Content: </strong>  {this.props.specs[3]/100 } %  </p> 
+                        <p> <strong> Serving Suggestion: </strong> {this.props.specs[1]} </p>
+                        <p> <strong> Style: </strong>  {this.props.specs[2]} </p>
+                        {/* <p> <strong> Tasting Note: </strong>  {this.props.specs[0]} </p> */}
+                    </span>  
+            </li>
         )
     }
 
 }
 
-export default cards;
+export default Card;

@@ -1,7 +1,14 @@
 .Header {
-    height: 10%;
+    height: 2.5%;
     width: 85%;
-    margin: 2% 7% ;    
-    background-color: rgb(104, 31, 92);    
+    margin: 0.5% 7% ;    
+    /* background-color: rgb(104, 31, 92);     */
     border-radius: 10px;
+
+}
+
+.clickedNavElt {
+    font-weight: bold;
+    color:blue;
+    background-color: aliceblue;
 }

@@ -8,7 +8,8 @@ class NavigationElements extends Component {
             <ul className="NavigationElements"> 
                 <NavigationElement title="Home"> </NavigationElement >   
                 <NavigationElement title="About"> </NavigationElement >   
-                <NavigationElement title="Vino"> </NavigationElement >   
+                <NavigationElement title="Products"> </NavigationElement >   
+                <NavigationElement title="Stores"> </NavigationElement >   
                 <NavigationElement title="Contact"> </NavigationElement >   
             </ul> 
         )

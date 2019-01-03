@@ -1,40 +1,32 @@
-.Card{
-    background-color: rgb(15, 202, 202);
-    height: 70%;
-    width: 28%;
-    float: left;
-    margin:  2% 3% 0% 2%;
+
+.Product{
+    width: 33%;
+    /* height: 10%; */
     padding: 0%;
-    border-radius: 4%;
-    overflow: hidden;
-    box-shadow: 3px 4px 6px rgb(192, 191, 191);
-
+    margin: 0.5% 0% 0% 0%;
+    display: inline-block;
 }
 
-.Card:hover{
-    background-color: rgb(135, 194, 194);
-    opacity: 0.7;
-    filter: alpha(opacity=50);
-    overflow: auto;
-    transform: translateY(-60%);
-    transition: 0.5s 0.1s;
+.Product:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(165, 37, 216);
 }
-
-
 
 .ProductImg{
     height: 70%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    z-index: -100;
+    width: 90%;
+    padding: 0% 2%;
+    margin: 0%;
+    /* background-image: inherit; */
+    /* display:block; */
 }
 
-.Product{
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-}
+.Product .ProductImg:hover{
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    }
 
 .ProductName{ 
     width: 100%;
@@ -42,90 +34,45 @@
     float: left;
     padding: 0%;
     margin: 0%;  
-    z-index: 100;
- }
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
 
-.ProductTastingNote{
-    width: 100%;
-    float: left;
-    padding: 0%;
+
+.popuptext{
+    height: auto;
+    width: 35%;
+    font-size: 15px;
     margin: 0%;
-    z-index: 100;
+    padding-left: 2%;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-align: left;
+    border-radius: 5%;
+    background-color: #f0ecd2;
+    position: absolute;
+    /* opacity: 0.9; */
 }
 
-
-
-
-/* a{text-decoration:none;} */
-/*Add the following compatibility code for IE as you can't animate background-size in IE*/
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
-	.textOverImage{background-size:cover}
-}
-.textOverImage{
-    position: relative;
-    /* width: 28%;
-    height: 70%; */
-    width: 198px;
-    height: 300px;
-    float: left;
-    /* margin: 2% 3% 0% 2%;; */
-    margin: 10px;
-    background-size: 105%;
-    background-position: center;
-    transition: 0.5s;
-    overflow: hidden;
-    border-radius: 4%;
-    box-shadow:0 0 4px rgb(0, 0, 0);
-  }
-  
-  .textOverImage:hover{
-    background-size: 130%;
-  }
-  
-.textOverImage:before{
-  position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    transform:translateY(75%);/*use transform:translateY(100%); to remove footer*/
-    background-color:rgba(74, 9, 90, 0.3);
-    color:#fff;
-    padding: 8px 15px 0px 15px;
-    content:attr(data-title);
-    transition:0.5s 0.1s;
-    color:#fff;
-    /* font-weight:bold;
-    font-size:1.5em; */
+/* The actual popup */
+.Product .popuptext {
+    visibility: hidden;
+    /* position: absolute; */
+    font-weight: normal;
+    margin-top: 2%;
+    color: rgb(66, 76, 223);
 }
 
-  .textOverImage:after{
-    position:absolute;
-        top: 25%;
-        bottom: 0;
-        left:0;
-        right:0;
-    color:rgb(231, 227, 185);
-    padding:8px;
-    content:attr(data-text);
-    transition:0.5s;
-    /* padding-top: 80px; */
-    /* margin-top:8px; */
-    transform:translateY(100%);
-    overflow:auto;
-    opacity:0;
-  }
-  
-  .textOverImage:hover:after{
-    transform:translateY(0);
-    transition:0.5s 0.1s;
-    opacity:1;
-  }
-.textOverImage:hover:before{
-    transform:translateY(0);
-    padding:8px;
-    background-color:rgba(60, 9, 73, 0.7);
-    transition:0.5s;
+.Product:hover .popuptext {
+    visibility: visible;
+    /* position: absolute; */
 }
+
+.nameTitle{
+    font-size: 24px;
+}
+
 
 
