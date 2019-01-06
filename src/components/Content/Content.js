@@ -47,7 +47,7 @@ class Content extends Component {
 
        
         fetch("../../data/redwine.json")  
-        .then(res => res.json())          // convert to plain text
+        .then(res => res.text())          // convert to plain text
         .then(d => console.log(d))  // then log it out
         // .then((res) => res.json())
         // .then((d) => {
