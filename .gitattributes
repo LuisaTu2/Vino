@@ -1,2 +1,3 @@
-*.js linguist-language=react
+*.css     linguist-language=JavaScript
+*.js      linguist-language=React
 jquery.js linguist-vendored=false
