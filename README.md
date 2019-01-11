@@ -14,6 +14,6 @@ Below you will find some information on how to perform common tasks.<br>
 3. A sample of the navigation pages is displayed below.
 
 
-![alt text](screenshots/about.png)
+![alt text](https://github.com/LuisaTu2/vino/tree/master/screenshots/about.png)
 
 
