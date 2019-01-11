@@ -1,10 +1,12 @@
 .contactContainer{
     width: 90%;
-    margin: 5%;
+    margin: 0%;
+    padding: 5% 0% 0% 20%;
     height: 50%;
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
-    background-color: bisque;
+    color:rgb(46, 46, 184);
+    /* background-color: bisque; */
 }
 
 textarea{
@@ -14,4 +16,18 @@ textarea{
 
 txtarea:hover{
     border: 3px solid rgb(128, 72, 180);
+}
+
+#submitBtn{
+    float:center;
+    background-color: rgb(50, 50, 191);
+    color: rgb(213, 235, 180);
+    /* font-weight: bold; */
+    height: 35px;
+    width: 70px;
+    
+}
+
+strong{
+    text-decoration-line: underline;
 }

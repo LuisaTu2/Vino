@@ -12,7 +12,6 @@ export class MapContainer extends React.Component {
 
         this.state = { 
             url: 'http://lcboapi.com/stores?where_not=is_dead&q="Windsor"',
-            //url: 'https://lcboapi.com/stores?where_not=is_dead&q=%22Windsor%22&access_key=MDowOTFjMGVhOC00NGM4LTExZTgtOWU1Yi02NzM0NDAwZDdhZWQ6S3NXaVNkTDJCQjhrUGJqdG1BSjZrS1VrWGJvTU8xb1MwR3RS',
             data: [],
             lat: "",
             long: "",

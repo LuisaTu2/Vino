@@ -1,6 +1,9 @@
 .imgHome{ 
-    height: 45%;
-    width: 85%;
+    max-width: 85%;
+    height: auto;
+    width: auto\9;
+    /* height: 45%;
+    width: 85%; */
     /* height: 110%;
     width: 100%; */
     margin: 0% 7% ;  
