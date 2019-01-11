@@ -22,3 +22,4 @@ yarn-error.log*
 
 
 key.json
+package-lock.json
