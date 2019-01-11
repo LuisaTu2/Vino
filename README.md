@@ -16,31 +16,3 @@ Below you will find some information on how to perform common tasks.<br>
 Welcome page
 
 ![Vino Website - Welcome](/screenshots/HomePage.png)
-
-<br>
-About
-![Vino Website - About](/screenshots/About.png)
-
-<br>
-Products
-![Vino Website - Products](/screenshots/Products.png)
-
-<br>
-Filter products by category and type
-![Vino Website - ProductFilter](/screenshots/SelectProduct.png)
-
-<br>
-See specifications and serving suggestions by hovering on top of product
-![Vino Website - ProductHighlight](/screenshots/ProductHighlight.png)
-
-<br>
-Map visualization of Windsor's LCBO stores. 
-![Vino Website - Stores](/screenshots/Stores.png)
-
-<br>
-Contact page
-![Vino Website - Contact](/screenshots/Contact.png)
-
-
-
-
