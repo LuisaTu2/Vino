@@ -14,6 +14,6 @@ Below you will find some information on how to perform common tasks.<br>
 3. A sample of the navigation pages is displayed below.
 
 
-![Vino Website - About](/screenshots/about.png)
+![Vino Website - About](/screenshots/About.png)
 
 
