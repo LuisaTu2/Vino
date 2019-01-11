@@ -3,7 +3,7 @@ import $ from "jquery"
 import Store from "./Store/Store"
 import "./Stores.css"
 import {Map, Marker,  GoogleApiWrapper } from 'google-maps-react';
-
+import gKey from "./key.json"
 
 export class MapContainer extends React.Component {
     
@@ -68,5 +68,5 @@ export class MapContainer extends React.Component {
 }
 
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyDoKUQoxuJYwJ6eMIq8Gn33cf-LalCl7GA'
+    apiKey: gKey[0].gmapKey
   })(MapContainer)
