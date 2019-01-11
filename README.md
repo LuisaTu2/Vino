@@ -15,4 +15,4 @@ Below you will find some information on how to perform common tasks.<br>
 <br>
 Welcome page
 
-![Vino Website - Welcome](/screenshots/HomePage.png)
+![Vino Website - Welcome](screenshots/HomePage.PNG)
