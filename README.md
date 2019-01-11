@@ -16,3 +16,8 @@ Below you will find some information on how to perform common tasks.<br>
 Welcome page
 
 ![Vino Website - Welcome](screenshots/HomePage.PNG)
+
+<br>
+About
+
+![Vino Website - About](/screenshots/About.png)
