@@ -10,7 +10,7 @@ Below you will find some information on how to perform common tasks.<br>
 ## Get started
 1. Clone the project
 2. Navigate to vino>>src>>components>>stores
-3. Edit the file "Stores.js" by adding your personal Google Map API key in the Google Api Wrapper at the end of the file. For more info got to: https://developers.google.com/maps/documentation/javascript/get-api-key. This screenshots highlights the content that you need to substitude with your own key. 
+3. Edit the file "Stores.js" by adding your personal Google Map API key in the Google Api Wrapper at the end of the file. For more info got to: https://developers.google.com/maps/documentation/javascript/get-api-key. This screenshot highlights the content that you need to substitude with your own key. 
 
 ![Vino Website - Google Key Modifications](screenshots/gKey.PNG)
 
