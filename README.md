@@ -6,15 +6,15 @@ You can read more about it here --> https://lcboapi.com/news/lcbo-api-is-now-ope
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
-#You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Get started
 1. Clone the project
-2. From the project root folder rum: <br> npm install
+2. From the project root folder run the command: <br> npm install
 3. A sample of the navigation pages is displayed below.
 
 <br>
 Welcome page
+
 ![Vino Website - Welcome](/screenshots/HomePage.png)
 
 <br>
