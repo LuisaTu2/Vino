@@ -5,6 +5,7 @@ import "./Stores.css"
 import {Map, Marker,  GoogleApiWrapper } from 'google-maps-react';
 // import gKey from "./keys.config"
 import gKey from "./key.json"
+import storesWindsor from "./stores.json"
 
 
 export class MapContainer extends React.Component {
@@ -24,18 +25,24 @@ export class MapContainer extends React.Component {
     } // end of constructor
 
     componentDidMount(){
-        $.ajax({
-            url: this.state.url,
-            dataType: 'jsonp'
-        }).then( (d) => {
-            console.log(d.result);
-            d.result.forEach( (item) =>  this.state.coords.push({lat:item.latitude, lng: item.longitude}) )  
-            this.setState({
-                data: d.result.map( (item) =>  <ul key={item.id}> {item.name} </ul>  ),
-                c: this.state.coords.map( (coord, i) => <Marker key={i} position={coord} >  </Marker>  )         
-            })
-        }
-        )// end of ajax call and promise
+        // $.ajax({
+        //     url: this.state.url,
+        //     dataType: 'jsonp'
+        // }).then( (d) => {
+        //     console.log(d.result);
+        //     d.result.forEach( (item) =>  this.state.coords.push({lat:item.latitude, lng: item.longitude}) )  
+        //     this.setState({
+        //         data: d.result.map( (item) =>  <ul key={item.id}> {item.name} </ul>  ),
+        //         c: this.state.coords.map( (coord, i) => <Marker key={i} position={coord} >  </Marker>  )         
+        //     })
+        // }
+        // )// end of ajax call and promise
+        storesWindsor.result.forEach( (item) =>  this.state.coords.push({lat:item.latitude, lng: item.longitude}) )  
+        this.setState({
+            data: storesWindsor.result.map( (item) =>  <ul key={item.id}> {item.name} </ul>  ),
+            c: this.state.coords.map( (coord, i) => <Marker key={i} position={coord} >  </Marker>  )         
+            // data: storesWindsor.result
+        })
 
     }
 
