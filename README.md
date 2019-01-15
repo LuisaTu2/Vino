@@ -14,8 +14,10 @@ Below you will find some information on how to perform common tasks.<br>
 
 ![Vino Website - Google Key Modifications](screenshots/gKey.PNG)
 
-4. From the project root folder run the command: <br> npm install
-5. A sample of the navigation pages is displayed below.
+4. From the project root folder run the command: <br> **npm install**
+5. From the root folder run the following command: <br> **npm start**
+
+A sample of the navigation pages is displayed below.
 
 <br>
 Welcome page
