@@ -9,13 +9,11 @@ Below you will find some information on how to perform common tasks.<br>
 
 ## Get started
 1. Clone the project
-2. Navigate to vino>>src>>components>>stores
-3. Edit the file "Stores.js" by adding your personal Google Map API key in the Google Api Wrapper at the end of the file. For more info got to: https://developers.google.com/maps/documentation/javascript/get-api-key. This screenshot highlights the content that you need to substitude with your own key. 
+2. Navigate to vino>>src>>components>>stores and add a new file. Name it key.json and add your own Google Maps API key in the following format:
+[{   "gmapKey": "your_Google_Maps_API_key"}]
 
-![Vino Website - Google Key Modifications](screenshots/gKey.PNG)
-
-4. From the project root folder run the command: <br> **npm install**
-5. From the root folder run the following command: <br> **npm start**
+3. From the project root folder run the command: <br> **npm install**
+4. From the root folder run the following command: <br> **npm start**
 
 A sample of the navigation pages is displayed below.
 
